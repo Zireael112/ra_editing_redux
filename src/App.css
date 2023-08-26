@@ -1,0 +1,16 @@
+.frm {
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.change:hover {
+  cursor: pointer;
+}

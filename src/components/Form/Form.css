@@ -1,0 +1,61 @@
+.Form {
+    align-items: flex-end;
+    display: flex;
+    width: 50%;
+    margin: 0 auto
+}
+  
+.Form-control {
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+    margin-top: 10px;
+}
+  
+.Form-control:not(:first-child) {
+    margin-left: 20px;
+}
+  
+.Form-control__price {
+    margin-top: 5px;
+    padding: 10px;
+  
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.Form-control__name {
+    margin-top: 5px;
+    padding: 10px;
+  
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.Form-control__button-save {
+    margin-top: 5px;
+    padding: 10px;
+  
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Form-control__button-reset {
+    margin-top: 5px;
+    padding: 10px;
+  
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Form-control__button-save:hover {
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+}
+
+.Form-control__button-reset:hover {
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+}

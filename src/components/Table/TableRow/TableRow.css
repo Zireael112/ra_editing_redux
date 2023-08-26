@@ -1,0 +1,25 @@
+.TableRow a {
+    margin-right: 5px;
+  
+    font-size: 18px;
+  
+    color: #000000;
+    text-decoration: none;
+}
+
+.TableRow:hover {
+    background-color: lightgray;
+}
+  
+.TableRow td:not(:first-child) {
+    text-align: center;
+}
+  
+.TableRow td {
+    padding: 20px;
+}
+  
+  
+[colspan="3"] {
+    text-align: center;
+}
